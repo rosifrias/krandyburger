@@ -117,7 +117,7 @@ function actualizarCarritoFlotante() {
 document.getElementById('sendOrder').addEventListener('click', () => {
     if (cart.length === 0) return;
 
-    const numeroTelefono = '56954381023';
+    const numeroTelefono = '56920033604';
     let textoPedido = 'Hola, quiero hacer el siguiente pedido:\n';
     cart.forEach(producto => {
         textoPedido += `${producto.item} x${producto.cantidad} - ${formatearPrecio(producto.precio * producto.cantidad)}\n`;
